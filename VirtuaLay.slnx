@@ -1,0 +1,4 @@
+﻿<Solution>
+  <Project Path="OVRLay.csproj" />
+  <Project Path="Valve.OpenVR.csproj" />
+</Solution>
