@@ -211,7 +211,7 @@ public class Unity_Overlay : MonoBehaviour
 		if(Application.isPlaying)
 		{
 			// Check for Unity_SteamVR_Handler
-			Unity_SteamVR_Handler[] handlers = FindObjectsOfType(typeof(Unity_SteamVR_Handler)) as Unity_SteamVR_Handler[];
+			Unity_SteamVR_Handler[] handlers = FindObjectsByType<Unity_SteamVR_Handler>();
 			if(handlers.Length < 1)
 				Instantiate(steamVRHandlerPrefab);
 
